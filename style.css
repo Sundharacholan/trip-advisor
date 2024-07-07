@@ -1,0 +1,494 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* menu */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    margin:15px auto;
+    padding: 0 70px;
+}
+.menu__logo img{
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center
+}
+.menu__list{
+    display: flex;
+    width: 380px;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.menu__list h4{
+    text-align: center;
+    width: 110px;
+    height: 30px;
+    padding-top: 3px;
+}
+.menu__signin{
+    display: flex;
+    width: 150px;
+    height: 45px;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.menu__signin-lan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:180px;
+    height: 35px;   
+    font-size:small;
+}
+.menu__signin-sign{
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    width: 198px;
+    font-size:small;
+    color: white;
+    background-color: black;
+    border-radius: 70px;
+}
+.menu__signin img{
+    height:17px;
+    width: 17px;
+    margin: 2px;
+}
+.menu__signin-lan:hover{
+    border-radius: 70px;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+.menu__signin-sign:hover{
+    border-radius: 70px;
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+
+.menu__list h4:hover{
+    height: 30px; 
+    width: 110px; 
+    border-radius: 70px;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+/* title */
+.title{
+    margin:30px;
+    text-align: center;
+    font-size: 30px;
+    width: 95.5%;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    margin:15px auto;
+}
+.nsi{
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+}
+.ns1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    color: rgb(0, 0, 0) ;
+    border-bottom: solid 2px black;
+}
+
+.ns2,.ns3,.ns4,.ns5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    color: rgb(59, 59, 59) ;
+}
+.ns2:hover,.ns3:hover,.ns4:hover,.ns5:hover{
+    border-bottom: solid 2px rgb(85, 85, 85);
+    color:rgb(85, 85, 85) ;
+    cursor: pointer;
+}
+
+/* search */
+.search{
+    display: flex;
+    justify-content: space-between;
+    border: 1px rgb(255, 255, 255) solid;
+    width: 53%;
+    height: 58px;
+    margin:20px auto;
+    border-radius: 60px;
+    margin-top: 25px;
+    padding: 5px;
+    padding-left: 15px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.search_s1{
+    display: flex;
+    gap: 5px;
+    width: 610px;
+    
+}
+.search_s1 img{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    /* border: 2px solid black; */
+}
+.search_s1 input{
+    border: none;
+    width:500px;
+}
+.search_s1 input:focus{
+    outline: none;
+}
+.search_s2{
+    text-align: center;
+    padding: 3px;
+    padding-top: 10px;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    width: 105px;
+    height: 47px;
+    font-size:medium;
+    background-color: rgb(76, 212, 153);
+}
+.search_s2:hover{
+    background-color:#3bc9a8;
+    cursor: pointer;
+}
+
+/* herobanner */
+.herobanner{
+    width: 83%;
+    margin:15px auto;
+    /* border: 2px solid black; */
+    background-color:rgb(199, 212, 226) ;
+    border-radius: 14px;
+    margin-top: 70px;
+    position: relative;
+    height: 448px;
+}
+.herobanner img{
+    width: 100%;
+    padding-top: px;
+}
+.herobanner h1 {
+    color: rgb(48, 8, 48);
+    position: absolute;
+    top: 110px;
+    left: 175px;
+    font-size: 50px;
+    width: 280px;
+    /* border: 2px solid black; */
+}
+.h__para{
+    color: rgb(78, 23, 78);
+    position: absolute;
+    top: 260px;
+    left: 175px;
+    width: 380px;
+    font-size:20px;
+    /* border: 2px solid black; */
+}
+.ai{
+    position: absolute;
+    top: 95px;
+    left: 175px;
+    font-size: x-small;
+    width: 80px;
+}
+.herobanner h4{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    left: 260px;
+    top: 93px;
+    font-size: x-small;
+    background-color: white;
+    padding: 2px;
+    width: 40px;
+}
+.h__button{
+    display: flex;
+    position: absolute;
+    bottom: 45px;
+    left: 180px;
+    padding: 0 15px;
+    border-radius: 50px;
+    background-color: rgb(51, 8, 51) ;
+    width: 210px;
+    height: 48px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.h__button-s2{
+    color: white;
+    font-size:medium;
+}
+.h__button:hover{
+    cursor: pointer;
+    background-color: rgb(87, 17, 87) ;
+}
+
+/* ad */
+.ad{
+    width: 83%;
+    height: 180px;
+    margin:15px auto;
+    background-color: rgb(234, 250, 244);
+    margin-top: 45px;
+    position: relative;
+    border-radius: 10px;
+}
+.ad img{
+    border-radius: 9px;
+    height: 145px;
+    width: 145px;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    transform: rotate(-3deg);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.ad h4{
+    position: absolute;
+    top: 52px;
+    left: 222px;
+    width: 300px;
+}
+.ad__p1{
+    position: absolute;
+    width: fit-content;
+    border-radius: 4px;
+    left: 220px;
+    top: 15px;
+    padding: 5px;
+    font-size: x-small;
+    background-color: rgb(218, 216, 213);
+
+}
+.ad__p2{
+    position: absolute;
+    bottom: 40px;
+    left: 230px;
+    width: fit-content;
+}
+.ad h5{
+    border: 1px solid black;
+    border-radius: 45px;
+    position: absolute;
+    font-size:smaller;
+    bottom: 30px;
+    right: 30px;
+    height: 45px;
+    width: 140px;
+    text-align: center;
+    padding-top: 12px;
+    background-color: white;
+}
+.ad h5:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* tripcard-1*/
+.trip-card__one{
+    width: 83%;
+    margin:15px auto;
+    margin-top: 60px;
+    gap: 5px;
+    
+}
+.trip-card__one p{
+    margin:10px 0px;
+    position: relative;
+    color: rgb(41, 41, 41);
+}
+.trip-card__one-img{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1115px;
+}
+.trip-card__one-img img{
+    height: 265px;
+    width: 265px;
+    border-radius: 10px;
+    filter: brightness(80%);
+}
+.trip-card__one-img1,.trip-card__one-img2,.trip-card__one-img3,.trip-card__one-img4{
+    position: relative;
+}
+.trip-card__c1{
+    position: absolute;
+    bottom:18px;
+    left: 18px;
+    color: white;
+    width: fit-content;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+.trip-card__c2{
+    position: absolute;
+    bottom:18px;
+    left: 18px;
+    color: white;
+    width: fit-content;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+.trip-card__c3{
+    position: absolute;
+    position: absolute;
+    bottom:18px;
+    left: 18px;
+    color: white;
+    width: fit-content;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+.trip-card__c4{
+    position: absolute;
+    bottom:15px;
+    left: 18px;
+    color: white;
+    width: 150px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+/* tripcard-2*/
+.trip-card__two{
+    width: 83%;
+    margin:15px auto;
+    margin-top: 40px;
+    gap: 10px;
+}
+.trip-card__two p{
+    margin:10px 0px;
+    position: relative;
+    color: rgb(41, 41, 41);
+}
+.trip-card__two-img{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1115px;
+    margin-top: 12px;
+}
+.trip-card__two-img img{
+    height: 265px;
+    width: 265px;
+    border-radius: 10px;
+}
+.trip-card__two-img1,.trip-card__two-img2,.trip-card__two-img3,.trip-card__two-img4{
+    position: relative;
+}
+.trip-card2__c1{
+    bottom:18px;
+    left: 18px;
+    color: rgb(0, 0, 0);
+    width:250px;
+}
+.trip-card2__c2{
+    bottom:18px;
+    left: 18px;
+    color: rgb(0, 0, 0);
+    width: 250px;
+    
+}
+.trip-card2__c3{
+    bottom:18px;
+    left: 18px;
+    color: rgb(0, 0, 0);
+    width: 250px;
+
+}
+.trip-card2__c4{
+    bottom:15px;
+    left: 18px;
+    color: rgb(10, 10, 10);
+    width: 250px;
+}
+.trip-card__one-img1:hover,.trip-card__one-img2:hover,.trip-card__one-img3:hover,.trip-card__one-img4:hover,.trip-card__two-img1:hover,.trip-card__two-img2:hover,.trip-card__two-img3:hover,.trip-card__two-img4:hover{
+    cursor: pointer;
+}
+
+.footer_image{
+    width: 100%;
+}
+
+.section11{
+    margin-top: 100px;
+    background-color: #FFF7E1;
+    width: 1347px;
+    height: 400px;
+    display: flex;
+}
+.section11_topic1 h5{
+font-size: 20px;
+
+}
+.section11_topic1 p{
+    font-size: 16px;
+}
+.section11_topic1 p:hover{
+    text-decoration: underline;
+}
+.section11_topic1{
+    padding: 40px;
+}
+.section11_topic2{
+    padding: 40px;
+
+}
+.section11_topic2 h5{
+    font-size: 20px;
+}
+.section11_topic2 p{
+    font-size: 16px;
+}
+.section11_topic2 p:hover{
+  text-decoration: underline;
+}
+.section11_topic3{
+    padding: 40px;
+}
+.section11_topic3 h5{
+    font-size: 20px;
+}
+.section11_topic p{
+    font-size: 16px;
+}
+.section11_topic3 p:hover{
+    text-decoration: underline;
+}
+.section11_topic4 h5{
+    font-size: 20px;
+}
+.section11_topic4 p{
+  font-size: 16px;
+}
+.section11_topic4{
+    padding: 40px;
+}
+
+.section12_topic1{
+    background-color:#FFF7E1;
+    display: flex;
+}
